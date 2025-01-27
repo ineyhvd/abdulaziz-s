@@ -23,7 +23,6 @@ class Category(BaseModel):
     class Meta:
         verbose_name = 'category'
         verbose_name_plural = "categories"
-        app_label = 'shop'
 
 
 class Product(BaseModel):
@@ -69,11 +68,3 @@ class Order(BaseModel):
 
     def __str__(self):
         return f'{self.full_name} => {self.phone_number}'
-
-class Comment(BaseModel):
-    full_name = models.CharField(max_length=255, null=True, blank=True)
-    email = models.EmailField(max_length=255, null=True, blank=True)
-    text=models.CharField(max_length=255, null=True, blank=True)
-
-    def __str__(self):
-        return f'{self.text}'

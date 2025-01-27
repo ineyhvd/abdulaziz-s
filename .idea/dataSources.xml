@@ -16,7 +16,7 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="Django default" uuid="79480dc7-c6ab-4991-bc11-1b09612458ad">
+    <data-source source="LOCAL" name="Django default" uuid="3c8816fb-56f7-4c34-9d75-a33d2173d097">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
